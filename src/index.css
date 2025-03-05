@@ -1,0 +1,107 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-gradient-to-b from-dark to-darker min-h-screen;
+}
+
+.nav-link {
+  @apply relative px-3 py-2 text-light hover:text-primary transition-colors duration-300;
+}
+
+.nav-link::after {
+  content: '';
+  @apply absolute bottom-0 left-0 w-0 h-0.5 bg-primary transition-all duration-300;
+}
+
+.nav-link:hover::after {
+  @apply w-full;
+}
+
+.card {
+  @apply bg-dark bg-opacity-30 backdrop-blur-lg rounded-xl sm:rounded-2xl shadow-md shadow-gray-500/20 p-6 transition-all duration-300 ease-in-out hover:shadow-lg;
+}
+
+.service-card {
+  @apply card flex justify-between items-center mb-4 hover:scale-105 cursor-pointer;
+}
+
+.project-card {
+  @apply card overflow-hidden hover:scale-105;
+}
+
+.project-card img {
+  @apply w-full h-48 object-cover rounded-lg transition-transform duration-500 hover:scale-110;
+}
+
+.timeline-item {
+  @apply relative pl-8 pb-8 border-l border-primary/30;
+}
+
+.timeline-item::before {
+  content: '';
+  @apply absolute left-[-8px] top-0 w-4 h-4 rounded-full bg-primary;
+}
+
+.skill-item {
+  @apply flex flex-col items-center justify-center p-4;
+}
+
+.btn {
+  @apply px-6 py-3 rounded-full font-medium tracking-wide text-lg transition-all duration-300 ease-in-out;
+}
+
+.btn-primary {
+  @apply btn bg-gradient-to-r from-primary to-purple-600 text-white hover:shadow-lg hover:shadow-primary/30 active:scale-95;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+/* Add gradient text support for Safari */
+@supports (-webkit-background-clip: text) {
+  .bg-clip-text {
+    -webkit-background-clip: text;
+    background-clip: text;
+  }
+}
+
+/* Prose styling for blog content */
+.prose h2 {
+  @apply text-2xl font-bold mt-8 mb-4 text-white;
+}
+
+.prose h3 {
+  @apply text-xl font-bold mt-6 mb-3 text-white;
+}
+
+.prose p {
+  @apply mb-4 text-gray-300;
+}
+
+.prose ul {
+  @apply list-disc pl-6 mb-4 text-gray-300;
+}
+
+.prose li {
+  @apply mb-2;
+}
+
+.bg-pattern {
+  background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%239C92AC' fill-opacity='0.1'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
