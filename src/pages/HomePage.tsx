@@ -3,6 +3,7 @@ import Hero from '../components/Hero';
 import Services from '../components/Services';
 import Portfolio from '../components/Portfolio';
 import Experience from '../components/Experience';
+import Internship from '../components/Internship';
 import Education from '../components/Education';
 import Skills from '../components/Skills';
 import Testimonials from '../components/Testimonials';
@@ -16,8 +17,9 @@ const HomePage = () => {
         <Hero />
         <Services />
         <Portfolio />
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 my-20">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 my-20">
           <Experience />
+          <Internship />
           <Education />
         </div>
         <Skills />

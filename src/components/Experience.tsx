@@ -4,24 +4,28 @@ import { motion } from 'framer-motion';
 const Experience = () => {
   const experiences = [
     {
-      period: '2020 - Present',
-      title: 'LEAD DEVELOPER',
-      company: 'Google Inc.',
+      period: '2023 July - Present',
+      title: 'Co-Founder and CTO',
+      company: 'NGIQ Frint Technologies LLP',
+      skills: ['MERN Stack', 'Next.js', 'Azure'],  
     },
     {
-      period: '2018 - 2020',
-      title: 'FULL STACK WEB DEVELOPER',
-      company: 'Facebook Inc.',
+      period: '2024 October - Present',
+      title: 'Senior Software Engineer',
+      company: 'Ninur Tech Pvt. Ltd.',
+      skills: ['Flutter', 'React', 'Azure', 'Supabase'],
     },
     {
-      period: '2016 - 2018',
-      title: 'UI DESIGNER',
-      company: 'Dribbble Inc.',
+      period: '2024 July - 2024 October',
+      title: 'IoT Engineer',
+      company: 'Zsee Smart Solutions Pvt. Ltd.',
+      skills: ['IoT', 'AWS', 'Embedded Systems'],
     },
     {
-      period: '2014 - 2016',
-      title: 'JUNIOR GRAPHICS DESIGNER',
-      company: 'Behance Inc.',
+      period: '2022 August - 2023 July',
+      title: 'Technical Consultant',
+      company: 'Azim Premji University, Bangalore',
+      skills: ['React', 'IoT'],
     },
   ];
 
@@ -56,6 +60,16 @@ const Experience = () => {
                 <span className="text-primary text-sm">{exp.period}</span>
                 <h3 className="text-xl font-bold mt-1">{exp.title}</h3>
                 <p className="text-gray-400">{exp.company}</p>
+                <div className="mt-2">
+                  {exp.skills.map((skill, skillIndex) => (
+                    <span
+                      key={skillIndex}
+                      className="inline-block px-4 py-2 bg-primary/10 text-primary rounded-full text-sm mr-2 mb-2"
+                    >
+                      {skill}
+                    </span>
+                  ))}
+                </div>
               </div>
             </motion.div>
           ))}

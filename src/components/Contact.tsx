@@ -5,10 +5,10 @@ import { motion } from 'framer-motion';
 const Contact = () => {
 
   const socialLinks = [
-    { icon: FaGithub, link: 'https://github.com/yourusername' },
-    { icon: FaLinkedinIn, link: 'https://linkedin.com/in/yourusername' },
-    { icon: FaInstagram, link: 'https://instagram.com/yourusername' },
-    { icon: FaFacebook, link: 'https://facebook.com/yourusername' }
+    { icon: FaGithub, link: 'https://github.com/ritavkashyap123' },
+    { icon: FaLinkedinIn, link: 'https://www.linkedin.com/in/ritav-kashyap/' },
+    { icon: FaInstagram, link: 'https://www.instagram.com/suhrid_kashyap' },
+    { icon: FaFacebook, link: 'https://www.facebook.com/ritav.kashyap' }
   ];
 
   const contactInfo = [
@@ -80,6 +80,8 @@ const Contact = () => {
                 <motion.a
                   key={index}
                   href={item.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   whileHover={{ y: -3 }}
                   className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center text-primary hover:bg-primary/20 transition-colors"
                 >

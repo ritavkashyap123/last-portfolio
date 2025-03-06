@@ -6,7 +6,7 @@ import { blogData } from '../data/blogData';
 
 const BlogDetailPage = () => {
   const { id } = useParams();
-  const blog = blogData.find(blog => blog.id === parseInt(id));
+  const blog = blogData.find(blog => blog.id === parseInt(id ?? ''));
   
   if (!blog) {
     return (
@@ -130,15 +130,15 @@ const BlogDetailPage = () => {
               <h3 className="text-xl font-bold mb-6">Related Posts</h3>
               <div className="space-y-6">
                 {relatedPosts.map((post, index) => (
-                  <Link key={index} to={`/blog/${post.id}`} className="flex group">
+                  <Link key={index} to={`/blog/${post?.id}`} className="flex group">
                     <img 
-                      src={post.image} 
-                      alt={post.title} 
+                      src={post?.image} 
+                      alt={post?.title} 
                       className="w-20 h-20 rounded-lg object-cover mr-4"
                     />
                     <div>
-                      <h4 className="font-medium group-hover:text-primary transition-colors">{post.title}</h4>
-                      <p className="text-sm text-gray-400">{post.date}</p>
+                      <h4 className="font-medium group-hover:text-primary transition-colors">{post?.title}</h4>
+                      <p className="text-sm text-gray-400">{post?.date}</p>
                     </div>
                   </Link>
                 ))}

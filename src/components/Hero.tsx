@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaGithub, FaTwitter, FaLinkedinIn, FaDribbble } from 'react-icons/fa';
+import { FaFacebook, FaGithub, FaInstagram, FaLinkedinIn, FaWhatsapp } from 'react-icons/fa';
 import { motion } from 'framer-motion';
 
 const Hero = () => {
@@ -8,6 +8,14 @@ const Hero = () => {
     { number: '10+', label: 'Hardware Projects' },
     { number: '15+', label: 'Software Projects' },
     { number: '8', label: 'Awards & Honors' },
+  ];
+
+  const socialLinks = [
+    { icon: FaGithub, link: 'https://github.com/ritavkashyap123' },
+    { icon: FaInstagram, link: 'https://www.instagram.com/suhrid_kashyap' },
+    { icon: FaLinkedinIn, link: 'https://www.linkedin.com/in/ritav-kashyap/' },
+    { icon: FaFacebook, link: 'https://www.facebook.com/share/12BeuWLAT1V/' },
+    { icon: FaWhatsapp, link: 'https://wa.me/9365353256' },
   ];
 
   return (
@@ -27,22 +35,22 @@ const Hero = () => {
             className="relative z-10"
           >
             <div className="inline-block px-6 py-2 bg-primary/10 rounded-full mb-6">
-              <span className="text-primary font-medium">👋 I am Ritav</span>
+              <span className="text-primary font-medium">👋 I am Ritav Kashyap</span>
             </div>
 
-            <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
-              Web Developer
+            <h1 className="text-3xl md:text-6xl font-bold mb-6 leading-tight">
+              Full Stack Developer
               <span className="relative">
                 <span className="absolute -top-1 -right-4 text-2xl animate-bounce">+</span>
               </span>
               <br />
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-purple-500">
-                UX Designer
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-purple-500 text-2xl md:text-5xl">
+                IoT and Robotics Engineer
               </span>
             </h1>
 
             <p className="text-gray-300 text-lg mb-8 max-w-lg">
-              I help brands thrive in the digital world by crafting beautiful experiences that convert visitors into customers.
+              I build dope digital solutions and innovative hardware that empower brands to connect, engage, and thrive in a fast-paced world. Let’s create the future together!
             </p>
 
             <div className="flex flex-wrap gap-4 mb-12">
@@ -50,15 +58,18 @@ const Hero = () => {
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="btn-primary"
+                onClick={() => window.open('/Ritav_CV.pdf', '_blank')}
               >
                 Download CV
               </motion.button>
 
               <div className="flex items-center space-x-6 ml-4">
-                {[FaGithub, FaTwitter, FaLinkedinIn, FaDribbble].map((Icon, index) => (
+                {socialLinks.map(({ icon: Icon, link }, index) => (
                   <motion.a
                     key={index}
-                    href="#"
+                    href={link}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     whileHover={{ y: -3, color: '#8B5CF6' }}
                     className="text-gray-400 hover:text-primary text-xl transition-colors"
                   >

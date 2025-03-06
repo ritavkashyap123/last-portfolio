@@ -4,24 +4,24 @@ import { motion } from 'framer-motion';
 const Education = () => {
   const education = [
     {
-      period: '2010 - 2014',
-      title: 'PROGRAMMING COURSE',
-      institution: 'Harvard University',
+      period: '2020 - 2024',
+      title: 'B. Tech in Electronics and Communication Engineering',
+      institution: 'Assam Engineering College, Guwahati',
     },
     {
-      period: '2007 - 2010',
-      title: 'GRAPHIC DESIGN COURSE',
-      institution: 'Stanford University',
+      period: '2018 - 2020',
+      title: 'Higher Secondary Education',
+      institution: 'Gurukul Grammar School, Guwahati',
     },
     {
-      period: '2004 - 2007',
-      title: 'WEB DESIGN COURSE',
-      institution: 'University of California',
+      period: '2013 - 2018',
+      title: 'Secondary Education',
+      institution: 'Assam Jatiya Bidyalaya, Guwahati',
     },
     {
-      period: '2001 - 2004',
-      title: 'DESIGN & TECHNOLOGY',
-      institution: 'Imperial College London',
+      period: '2006 - 2012',
+      title: 'Primary Education',
+      institution: 'Shankardev Vidya Niketan, Guwahati',
     },
   ];
 

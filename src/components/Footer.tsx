@@ -10,16 +10,16 @@ const Footer = () => {
           <Logo />
           
           <div className="flex space-x-6 my-6 md:my-0">
-            <a href="#" className="text-gray-400 hover:text-primary transition-colors">
+            <a href="https://github.com/ritavkashyap123" className="text-gray-400 hover:text-primary transition-colors" target="_blank" rel="noopener noreferrer">
               <FaGithub size={20} />
             </a>
-            <a href="#" className="text-gray-400 hover:text-primary transition-colors">
+            <a href="https://www.instagram.com/suhrid_kashyap" className="text-gray-400 hover:text-primary transition-colors" target="_blank" rel="noopener noreferrer">
               <FaInstagram size={20} />
             </a>
-            <a href="#" className="text-gray-400 hover:text-primary transition-colors">
+            <a href="https://www.linkedin.com/in/ritav-kashyap/" className="text-gray-400 hover:text-primary transition-colors" target="_blank" rel="noopener noreferrer">
               <FaLinkedinIn size={20} />
             </a>
-            <a href="#" className="text-gray-400 hover:text-primary transition-colors">
+            <a href="https://www.facebook.com/share/12BeuWLAT1V/" className="text-gray-400 hover:text-primary transition-colors" target="_blank" rel="noopener noreferrer">
               <FaFacebook size={20} />
             </a>
           </div>
