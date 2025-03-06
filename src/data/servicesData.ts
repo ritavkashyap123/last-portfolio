@@ -1,89 +1,6 @@
 export const servicesData = [
   {
     id: 1,
-    title: 'Branding Design',
-    slug: 'branding-design',
-    description: 'I create visually appealing brand identities that help businesses stand out in the market and connect with their target audience.',
-    color: 'from-purple-600 to-purple-500',
-    icon: 'branding',
-    fullDescription: `
-      <p>Your brand is more than just a logo—it's the complete experience customers have with your company. I create comprehensive brand identities that communicate your values, differentiate you from competitors, and build lasting connections with your audience.</p>
-      
-      <p>My branding design services include:</p>
-    `,
-    features: [
-      {
-        title: 'Brand Strategy',
-        description: 'I develop a strategic foundation for your brand, defining your purpose, vision, values, positioning, and target audience.'
-      },
-      {
-        title: 'Logo Design',
-        description: 'I create distinctive, memorable logos that capture your brand essence and work across all applications.'
-      },
-      {
-        title: 'Visual Identity System',
-        description: 'I design a cohesive visual language including color palettes, typography, imagery style, and graphic elements.'
-      },
-      {
-        title: 'Brand Guidelines',
-        description: 'I provide comprehensive documentation to ensure consistent application of your brand across all touchpoints.'
-      },
-      {
-        title: 'Brand Collateral',
-        description: 'I design business cards, letterheads, packaging, and other materials that reinforce your brand identity.'
-      }
-    ],
-    process: [
-      {
-        step: 1,
-        title: 'Discovery',
-        description: 'I begin by understanding your business, goals, audience, and competitive landscape through in-depth research and discussions.'
-      },
-      {
-        step: 2,
-        title: 'Strategy Development',
-        description: 'Based on research insights, I develop a strategic foundation for your brand that will guide all design decisions.'
-      },
-      {
-        step: 3,
-        title: 'Concept Exploration',
-        description: 'I explore multiple creative directions for your visual identity, presenting diverse options that align with your strategy.'
-      },
-      {
-        step: 4,
-        title: 'Refinement',
-        description: 'After selecting a direction, I refine the concept, perfecting every detail of your brand identity system.'
-      },
-      {
-        step: 5,
-        title: 'Implementation',
-        description: 'I deliver final assets and guidelines, and can assist with implementing your brand across various touchpoints.'
-      }
-    ],
-    testimonial: {
-      quote: "Ritav transformed our brand identity completely. The new branding perfectly captures our company's values and has significantly improved our market recognition.",
-      author: "Sarah Johnson",
-      position: "Marketing Director, Brand Co",
-      image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
-    },
-    caseStudies: [3, 6],
-    faq: [
-      {
-        question: "How long does the branding process typically take?",
-        answer: "A comprehensive branding project usually takes 4-8 weeks, depending on the scope and complexity. We'll establish a clear timeline during our initial consultation."
-      },
-      {
-        question: "Do you offer logo design as a standalone service?",
-        answer: "While I can design a logo separately, I recommend a more comprehensive approach to ensure your logo aligns with your overall brand strategy and visual system."
-      },
-      {
-        question: "How much input will I have in the design process?",
-        answer: "Your input is crucial throughout the process. I'll collaborate closely with you, seeking feedback at key stages to ensure the final result aligns with your vision."
-      }
-    ]
-  },
-  {
-    id: 2,
     title: 'UI/UX Design',
     slug: 'ui-ux-design',
     description: 'I design intuitive user interfaces and experiences that engage users and make digital products easy and enjoyable to use.',
@@ -166,168 +83,251 @@ export const servicesData = [
     ]
   },
   {
-    id: 3,
-    title: 'Web Design',
-    slug: 'web-design',
-    description: 'I build responsive websites that look great on all devices and help businesses achieve their online goals and objectives.',
-    color: 'from-green-600 to-green-500',
-    icon: 'web',
+    id: 2,
+    title: 'WordPress Development',
+    slug: 'wordpress-development',
+    description: 'I build and customize WordPress websites that are user-friendly, responsive, and tailored to your business needs.',
+    color: 'from-orange-600 to-orange-500',
+    icon: 'wordpress',
     fullDescription: `
-      <p>Your website is often the first interaction customers have with your business. I create stunning, functional websites that make a strong first impression, communicate your value proposition, and convert visitors into customers.</p>
+      <p>WordPress is a powerful platform for creating websites. I specialize in developing custom themes and plugins that enhance functionality and user experience.</p>
       
-      <p>My web design services include:</p>
+      <p>My WordPress development services include:</p>
     `,
     features: [
       {
-        title: 'Custom Website Design',
-        description: 'I create unique, tailored designs that reflect your brand and meet your specific business needs.'
+        title: 'Custom Theme Development',
+        description: 'I create unique WordPress themes that reflect your brand and provide a seamless user experience.'
       },
       {
-        title: 'Responsive Development',
-        description: 'I ensure your website looks and functions perfectly on all devices, from desktops to smartphones.'
-      },
-      {
-        title: 'Content Management Systems',
-        description: 'I build websites on user-friendly platforms like WordPress, making it easy for you to update content.'
+        title: 'Plugin Development',
+        description: 'I develop custom plugins to add specific features and functionalities to your website.'
       },
       {
         title: 'E-commerce Solutions',
-        description: 'I design and develop online stores that provide seamless shopping experiences and drive sales.'
+        description: 'I build online stores using WooCommerce, ensuring a smooth shopping experience for your customers.'
       },
       {
-        title: 'Performance Optimization',
-        description: 'I optimize your website for speed, ensuring fast load times that keep users engaged and improve SEO.'
+        title: 'Website Maintenance',
+        description: 'I offer ongoing support and maintenance services to keep your WordPress site secure and up-to-date.'
+      },
+      {
+        title: 'SEO Optimization',
+        description: 'I implement SEO best practices to improve your website’s visibility and search engine rankings.'
       }
     ],
     process: [
       {
         step: 1,
-        title: 'Planning',
-        description: 'I begin by understanding your goals, target audience, and content requirements to develop a strategic plan.'
+        title: 'Consultation',
+        description: 'I start with a consultation to understand your requirements and goals for your WordPress site.'
       },
       {
         step: 2,
-        title: 'Wireframing',
-        description: 'I create wireframes to establish the structure and layout of key pages before moving to visual design.'
+        title: 'Design & Development',
+        description: 'I design and develop your WordPress site, ensuring it meets your specifications and is user-friendly.'
       },
       {
         step: 3,
-        title: 'Design',
-        description: 'I develop the visual design of your website, applying your brand identity to create a cohesive look and feel.'
+        title: 'Testing',
+        description: 'I conduct thorough testing to ensure your site functions correctly across all devices and browsers.'
       },
       {
         step: 4,
-        title: 'Development',
-        description: 'I build your website using modern, clean code that ensures performance, accessibility, and SEO benefits.'
+        title: 'Launch',
+        description: 'I launch your website and provide training on how to manage and update your content.'
       },
       {
         step: 5,
-        title: 'Launch & Support',
-        description: 'After thorough testing, I launch your website and provide training and ongoing support as needed.'
+        title: 'Ongoing Support',
+        description: 'I offer ongoing support and maintenance to ensure your site remains secure and performs optimally.'
       }
     ],
     testimonial: {
-      quote: "Our new website has transformed our online presence. It perfectly represents our brand and has significantly increased our conversion rates. Ritav was a pleasure to work with throughout the process.",
-      author: "Emily Rodriguez",
-      position: "CEO, Innovate Solutions",
-      image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=688&q=80"
+      quote: "Ritav built our WordPress site from scratch, and we couldn't be happier. The site is beautiful, functional, and easy to manage.",
+      author: "Laura Smith",
+      position: "Owner, Creative Agency",
+      image: "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
     },
-    caseStudies: [1, 4],
+    caseStudies: [1, 3],
     faq: [
       {
-        question: "How long does it take to design and develop a website?",
-        answer: "The timeline varies depending on the complexity of the project. A basic website might take 4-6 weeks, while more complex sites with custom functionality can take 8-12 weeks or more."
+        question: "Can you migrate my existing site to WordPress?",
+        answer: "Yes, I can help migrate your existing website to WordPress, ensuring a smooth transition with minimal downtime."
       },
       {
-        question: "Do you provide website maintenance services?",
-        answer: "Yes, I offer maintenance packages to keep your website secure, up-to-date, and performing optimally. This includes regular updates, backups, security monitoring, and content updates."
+        question: "How long does it take to develop a WordPress site?",
+        answer: "The timeline varies based on the complexity of the project, but a standard WordPress site can take 4-6 weeks to complete."
       },
       {
-        question: "Will my website be search engine friendly?",
-        answer: "Absolutely. I build websites with SEO best practices in mind, including clean code, fast load times, mobile responsiveness, and proper heading structure. I can also implement more advanced SEO strategies if needed."
+        question: "Will my WordPress site be mobile-friendly?",
+        answer: "Absolutely! I ensure that all WordPress sites are responsive and look great on all devices."
+      }
+    ]
+  },
+  {
+    id: 3,
+    title: 'Full Stack Web Development',
+    slug: 'full-stack-web-development',
+    description: 'I provide end-to-end web development services, from front-end design to back-end programming.',
+    color: 'from-teal-600 to-teal-500',
+    icon: 'fullstack',
+    fullDescription: `
+      <p>As a full stack developer, I handle both the client-side and server-side of web applications, ensuring a seamless integration of all components.</p>
+      
+      <p>My full stack web development services include:</p>
+    `,
+    features: [
+      {
+        title: 'Front-End Development',
+        description: 'I create responsive and interactive user interfaces using modern frameworks like React and Vue.js.'
+      },
+      {
+        title: 'Back-End Development',
+        description: 'I build robust server-side applications using Node.js, Express, and databases like MongoDB and MySQL.'
+      },
+      {
+        title: 'API Development',
+        description: 'I develop RESTful APIs to enable communication between the front-end and back-end of your application.'
+      },
+      {
+        title: 'Deployment & Hosting',
+        description: 'I assist with deploying your application to cloud platforms like AWS, Heroku, or DigitalOcean.'
+      },
+      {
+        title: 'Performance Optimization',
+        description: 'I optimize your web applications for speed and efficiency, ensuring a smooth user experience.'
+      }
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Requirements Gathering',
+        description: 'I start by understanding your project requirements and defining the scope of work.'
+      },
+      {
+        step: 2,
+        title: 'Design & Development',
+        description: 'I design and develop the application, ensuring all components work together seamlessly.'
+      },
+      {
+        step: 3,
+        title: 'Testing',
+        description: 'I conduct thorough testing to ensure the application is bug-free and performs well.'
+      },
+      {
+        step: 4,
+        title: 'Deployment',
+        description: 'I deploy the application to your chosen hosting platform and ensure it is live and functional.'
+      },
+      {
+        step: 5,
+        title: 'Maintenance & Support',
+        description: 'I provide ongoing maintenance and support to keep your application running smoothly.'
+      }
+    ],
+    testimonial: {
+      quote: "Ritav developed our web application from the ground up, and it has exceeded our expectations. The performance and user experience are top-notch.",
+      author: "James Lee",
+      position: "CTO, Tech Solutions",
+      image: "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
+    },
+    caseStudies: [2, 5],
+    faq: [
+      {
+        question: "What technologies do you use for full stack development?",
+        answer: "I use a variety of technologies including JavaScript, Node.js, React, and various databases depending on the project requirements."
+      },
+      {
+        question: "Can you integrate third-party services into my application?",
+        answer: "Yes, I can integrate various third-party services and APIs to enhance the functionality of your application."
+      },
+      {
+        question: "How do you ensure the security of my web application?",
+        answer: "I implement best practices for security, including data encryption, secure authentication, and regular security audits."
       }
     ]
   },
   {
     id: 4,
-    title: 'App Design',
-    slug: 'app-design',
-    description: 'I create mobile app designs that are both visually stunning and functional, ensuring a seamless user experience across all platforms.',
-    color: 'from-amber-600 to-amber-500',
+    title: 'App Development',
+    slug: 'app-development',
+    description: 'I create cross-platform mobile applications that deliver exceptional user experiences on both iOS and Android.',
+    color: 'from-purple-700 to-purple-600',
     icon: 'app',
     fullDescription: `
-      <p>Mobile apps have become essential tools for businesses to engage with customers and provide value. I design intuitive, engaging mobile experiences that users love and that achieve your business objectives.</p>
+      <p>Mobile applications are essential for engaging users and providing value. I specialize in developing apps that are not only visually appealing but also highly functional.</p>
       
-      <p>My app design services include:</p>
+      <p>My app development services include:</p>
     `,
     features: [
       {
-        title: 'UX Research & Strategy',
-        description: 'I conduct research to understand user needs and behaviors, developing a strategy that aligns with business goals.'
+        title: 'Cross-Platform Development',
+        description: 'I build applications that work seamlessly on both iOS and Android using frameworks like React Native and Flutter.'
       },
       {
-        title: 'User Flow & Wireframing',
-        description: 'I map out the user journey and create wireframes to establish the apps structure and functionality.'
+        title: 'User Experience Design',
+        description: 'I design intuitive user interfaces that enhance user engagement and satisfaction.'
       },
       {
-        title: 'Visual Design',
-        description: 'I develop a visually appealing interface that aligns with your brand and enhances usability.'
+        title: 'Backend Integration',
+        description: 'I integrate your app with backend services to ensure smooth data flow and functionality.'
       },
       {
-        title: 'Prototyping',
-        description: 'I create interactive prototypes that simulate the app experience for testing and stakeholder review.'
+        title: 'App Store Deployment',
+        description: 'I assist with the submission process to the App Store and Google Play, ensuring compliance with all guidelines.'
       },
       {
-        title: 'Design Systems',
-        description: 'I build comprehensive design systems that ensure consistency and facilitate development.'
+        title: 'Post-Launch Support',
+        description: 'I provide ongoing support and updates to keep your app running smoothly and to enhance its features.'
       }
     ],
     process: [
       {
         step: 1,
-        title: 'Discovery',
-        description: 'I begin by understanding your business goals, target users, and app requirements through research and discussions.'
+        title: 'Initial Consultation',
+        description: 'I start with a consultation to understand your app idea, target audience, and business goals.'
       },
       {
         step: 2,
-        title: 'User Experience Design',
-        description: 'I develop user flows, information architecture, and wireframes to establish the app\'s structure and functionality.'
+        title: 'Design & Prototyping',
+        description: 'I create wireframes and prototypes to visualize the app’s functionality and user experience.'
       },
       {
         step: 3,
-        title: 'Visual Design',
-        description: 'I create the visual language of your app, designing screens that are both beautiful and functional.'
+        title: 'Development',
+        description: 'I develop the app using best practices to ensure performance and scalability.'
       },
       {
         step: 4,
-        title: 'Prototyping & Testing',
-        description: 'I build interactive prototypes and conduct usability testing to validate designs and identify improvements.'
+        title: 'Testing',
+        description: 'I conduct thorough testing to identify and fix any issues before launch.'
       },
       {
         step: 5,
-        title: 'Design Handoff',
-        description: 'I prepare design assets and specifications for developers, ensuring accurate implementation of the design.'
+        title: 'Launch & Marketing',
+        description: 'I help launch your app and provide marketing strategies to reach your target audience.'
       }
     ],
     testimonial: {
-      quote: "Ritav designed an app that our users absolutely love. The interface is intuitive, visually appealing, and has helped us stand out in a crowded marketplace. The attention to detail was impressive.",
-      author: "David Park",
-      position: "Founder, MobileFirst",
-      image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
+      quote: "Ritav developed our mobile app, and it has been a game-changer for our business. The user feedback has been overwhelmingly positive.",
+      author: "Samantha Green",
+      position: "CEO, App Innovations",
+      image: "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
     },
-    caseStudies: [2, 5],
+    caseStudies: [3, 4],
     faq: [
       {
-        question: "Do you design for both iOS and Android?",
-        answer: "Yes, I design for both platforms, either creating platform-specific designs that follow iOS and Android guidelines or developing a consistent cross-platform design system."
+        question: "Do you develop for both iOS and Android?",
+        answer: "Yes, I create cross-platform applications that work seamlessly on both operating systems."
       },
       {
-        question: "Can you work with our development team?",
-        answer: "Absolutely. I collaborate closely with developers throughout the process, providing assets, specifications, and support to ensure the design is implemented accurately."
+        question: "How long does it take to develop a mobile app?",
+        answer: "The timeline varies based on the complexity of the app, but typically it takes 8-12 weeks."
       },
       {
-        question: "How do you approach app updates and iterations?",
-        answer: "I believe in an iterative approach to app design. After the initial launch, I can help analyze user feedback and behavior data to identify improvements for future versions."
+        question: "Can you help with app marketing?",
+        answer: "Absolutely! I can provide strategies and support for marketing your app post-launch."
       }
     ]
   }

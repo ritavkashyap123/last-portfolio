@@ -6,7 +6,7 @@ import { projectsData } from '../data/projectsData';
 const Portfolio = () => {
   const [activeFilter, setActiveFilter] = useState('all');
   
-  const filters = ['all', 'web', 'design', 'branding'];
+  const filters = ['all', 'web', 'app', 'wordpress'];
   
   const filteredProjects = activeFilter === 'all' 
     ? projectsData 

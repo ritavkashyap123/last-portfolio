@@ -33,7 +33,7 @@ const Navbar = () => {
   ];
 
   const handleHireMe = () => {
-    toast.info('Hehh Noob😂');
+    toast.info('Hehh Noob 😂');
   };
 
   return (

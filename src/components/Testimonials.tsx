@@ -46,7 +46,7 @@ const Testimonials = () => {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: index * 0.1 }}
             viewport={{ once: true }}
-            className="card"
+            className="card hover:bg-primary/20"
           >
             <div className="flex items-center mb-4">
               <img 

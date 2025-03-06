@@ -28,7 +28,7 @@ const Services = () => {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5, delay: index * 0.1 }}
             viewport={{ once: true }}
-            className="service-card"
+            className="service-card hover:bg-primary/20"
           >
             <Link to={`/service/${service.id}`} className="flex justify-between items-center w-full">
               <div className="flex items-center">
