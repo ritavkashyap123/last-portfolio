@@ -8,7 +8,7 @@ export const blogData = [
     image: 'https://images.unsplash.com/photo-1559028012-481c04fa702d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1136&q=80',
     author: {
       name: 'Ritav',
-      avatar: 'https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80',
+      avatar: '/avater.png',
       role: 'UX Designer'
     },
     excerpt: 'Creating user-friendly interfaces is essential for providing a positive user experience. Learn the key principles and best practices.',
@@ -59,7 +59,7 @@ export const blogData = [
     image: 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80',
     author: {
       name: 'Ritav',
-      avatar: 'https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80',
+      avatar: '/avater.png',
       role: 'Web Developer'
     },
     excerpt: 'The web development landscape is constantly evolving. Discover the trends and technologies that will shape the future of web development in 2023.',
@@ -108,7 +108,7 @@ export const blogData = [
     image: 'https://images.unsplash.com/photo-1553877522-43269d4ea984?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80',
     author: {
       name: 'Ritav',
-      avatar: 'https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80',
+      avatar: '/avater.png',
       role: 'Brand Strategist'
     },
     excerpt: 'A strong brand strategy is essential for business success. Learn how to create and implement effective brand strategies that resonate with your audience.',

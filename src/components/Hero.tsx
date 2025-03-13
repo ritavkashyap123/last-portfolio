@@ -107,7 +107,7 @@ const Hero = () => {
               <div className="absolute -inset-4 bg-gradient-to-r from-primary to-purple-600 rounded-full opacity-30 blur-3xl animate-pulse" />
               <div className="relative aspect-square rounded-full overflow-hidden border-8 border-dark/80">
                 <img
-                  src="/image.png"
+                  src="/avater.png"
                   alt="Ritav"
                   className="w-full h-full object-cover"
                 />

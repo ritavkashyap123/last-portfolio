@@ -129,7 +129,18 @@ const Skills = () => {
               onClick={() => setShowAll(true)}
               className="px-6 py-3 bg-gradient-to-r from-primary to-purple-500 rounded-lg text-white font-medium hover:opacity-90 transition-opacity"
             >
-              Load More
+              Show All
+            </button>
+          </div>
+        )}
+
+        {showAll && (
+          <div className="flex justify-center mt-12">
+            <button
+              onClick={() => setShowAll(false)}
+              className="px-6 py-3 bg-gradient-to-r from-primary to-purple-500 rounded-lg text-white font-medium hover:opacity-90 transition-opacity"
+            >
+              Show Less
             </button>
           </div>
         )}

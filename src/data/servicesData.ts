@@ -1,172 +1,6 @@
 export const servicesData = [
   {
     id: 1,
-    title: 'UI/UX Design',
-    slug: 'ui-ux-design',
-    description: 'I design intuitive user interfaces and experiences that engage users and make digital products easy and enjoyable to use.',
-    color: 'from-blue-600 to-blue-500',
-    icon: 'uiux',
-    fullDescription: `
-      <p>Great digital products are both beautiful and functional. I create user-centered designs that not only look stunning but also provide seamless, intuitive experiences that keep users coming back.</p>
-      
-      <p>My UI/UX design services include:</p>
-    `,
-    features: [
-      {
-        title: 'User Research',
-        description: 'I conduct research to understand your users\' needs, behaviors, and pain points to inform design decisions.'
-      },
-      {
-        title: 'Information Architecture',
-        description: 'I organize content and functionality in a way that\'s logical and intuitive for users to navigate.'
-      },
-      {
-        title: 'Wireframing & Prototyping',
-        description: 'I create low and high-fidelity prototypes to visualize the user experience and test concepts before development.'
-      },
-      {
-        title: 'Visual Design',
-        description: 'I craft beautiful, on-brand interfaces with attention to typography, color, layout, and micro-interactions.'
-      },
-      {
-        title: 'Usability Testing',
-        description: 'I validate designs with real users to identify issues and opportunities for improvement.'
-      }
-    ],
-    process: [
-      {
-        step: 1,
-        title: 'Discovery & Research',
-        description: 'I begin by understanding your business goals and conducting user research to identify needs and opportunities.'
-      },
-      {
-        step: 2,
-        title: 'Information Architecture',
-        description: 'I organize content and functionality in a logical structure, creating sitemaps and user flows.'
-      },
-      {
-        step: 3,
-        title: 'Wireframing',
-        description: 'I create low-fidelity wireframes to establish layout and functionality without the distraction of visual design.'
-      },
-      {
-        step: 4,
-        title: 'Visual Design',
-        description: 'I develop the visual language of your product, applying your brand to create beautiful, consistent interfaces.'
-      },
-      {
-        step: 5,
-        title: 'Prototyping & Testing',
-        description: 'I create interactive prototypes and test with users to validate designs and identify improvements.'
-      }
-    ],
-    testimonial: {
-      quote: "Ritav redesigned our app interface, making it not only more visually appealing but significantly more intuitive. Our user engagement metrics have improved dramatically.",
-      author: "Michael Chen",
-      position: "Product Manager, Tech Innovations",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
-    },
-    caseStudies: [2, 4],
-    faq: [
-      {
-        question: "What's the difference between UI and UX design?",
-        answer: "UX (User Experience) design focuses on the overall feel and functionality of a product, while UI (User Interface) design focuses on the visual elements users interact with. I provide both to create products that are both functional and beautiful."
-      },
-      {
-        question: "Do you work with development teams?",
-        answer: "Yes, I collaborate closely with developers to ensure designs are implemented accurately. I can provide detailed specifications, style guides, and assets to facilitate the development process."
-      },
-      {
-        question: "How do you approach responsive design?",
-        answer: "I design with a mobile-first approach, ensuring interfaces work seamlessly across all device sizes. I create responsive layouts that adapt to different screen dimensions while maintaining usability and visual integrity."
-      }
-    ]
-  },
-  {
-    id: 2,
-    title: 'WordPress Development',
-    slug: 'wordpress-development',
-    description: 'I build and customize WordPress websites that are user-friendly, responsive, and tailored to your business needs.',
-    color: 'from-orange-600 to-orange-500',
-    icon: 'wordpress',
-    fullDescription: `
-      <p>WordPress is a powerful platform for creating websites. I specialize in developing custom themes and plugins that enhance functionality and user experience.</p>
-      
-      <p>My WordPress development services include:</p>
-    `,
-    features: [
-      {
-        title: 'Custom Theme Development',
-        description: 'I create unique WordPress themes that reflect your brand and provide a seamless user experience.'
-      },
-      {
-        title: 'Plugin Development',
-        description: 'I develop custom plugins to add specific features and functionalities to your website.'
-      },
-      {
-        title: 'E-commerce Solutions',
-        description: 'I build online stores using WooCommerce, ensuring a smooth shopping experience for your customers.'
-      },
-      {
-        title: 'Website Maintenance',
-        description: 'I offer ongoing support and maintenance services to keep your WordPress site secure and up-to-date.'
-      },
-      {
-        title: 'SEO Optimization',
-        description: 'I implement SEO best practices to improve your website’s visibility and search engine rankings.'
-      }
-    ],
-    process: [
-      {
-        step: 1,
-        title: 'Consultation',
-        description: 'I start with a consultation to understand your requirements and goals for your WordPress site.'
-      },
-      {
-        step: 2,
-        title: 'Design & Development',
-        description: 'I design and develop your WordPress site, ensuring it meets your specifications and is user-friendly.'
-      },
-      {
-        step: 3,
-        title: 'Testing',
-        description: 'I conduct thorough testing to ensure your site functions correctly across all devices and browsers.'
-      },
-      {
-        step: 4,
-        title: 'Launch',
-        description: 'I launch your website and provide training on how to manage and update your content.'
-      },
-      {
-        step: 5,
-        title: 'Ongoing Support',
-        description: 'I offer ongoing support and maintenance to ensure your site remains secure and performs optimally.'
-      }
-    ],
-    testimonial: {
-      quote: "Ritav built our WordPress site from scratch, and we couldn't be happier. The site is beautiful, functional, and easy to manage.",
-      author: "Laura Smith",
-      position: "Owner, Creative Agency",
-      image: "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
-    },
-    caseStudies: [1, 3],
-    faq: [
-      {
-        question: "Can you migrate my existing site to WordPress?",
-        answer: "Yes, I can help migrate your existing website to WordPress, ensuring a smooth transition with minimal downtime."
-      },
-      {
-        question: "How long does it take to develop a WordPress site?",
-        answer: "The timeline varies based on the complexity of the project, but a standard WordPress site can take 4-6 weeks to complete."
-      },
-      {
-        question: "Will my WordPress site be mobile-friendly?",
-        answer: "Absolutely! I ensure that all WordPress sites are responsive and look great on all devices."
-      }
-    ]
-  },
-  {
-    id: 3,
     title: 'Full Stack Web Development',
     slug: 'full-stack-web-development',
     description: 'I provide end-to-end web development services, from front-end design to back-end programming.',
@@ -249,7 +83,7 @@ export const servicesData = [
     ]
   },
   {
-    id: 4,
+    id: 2,
     title: 'App Development',
     slug: 'app-development',
     description: 'I create cross-platform mobile applications that deliver exceptional user experiences on both iOS and Android.',
@@ -330,5 +164,171 @@ export const servicesData = [
         answer: "Absolutely! I can provide strategies and support for marketing your app post-launch."
       }
     ]
-  }
+  },
+  {
+    id: 3,
+    title: 'UI/UX Design',
+    slug: 'ui-ux-design',
+    description: 'I design intuitive user interfaces and experiences that engage users and make digital products easy and enjoyable to use.',
+    color: 'from-blue-600 to-blue-500',
+    icon: 'uiux',
+    fullDescription: `
+      <p>Great digital products are both beautiful and functional. I create user-centered designs that not only look stunning but also provide seamless, intuitive experiences that keep users coming back.</p>
+      
+      <p>My UI/UX design services include:</p>
+    `,
+    features: [
+      {
+        title: 'User Research',
+        description: 'I conduct research to understand your users\' needs, behaviors, and pain points to inform design decisions.'
+      },
+      {
+        title: 'Information Architecture',
+        description: 'I organize content and functionality in a way that\'s logical and intuitive for users to navigate.'
+      },
+      {
+        title: 'Wireframing & Prototyping',
+        description: 'I create low and high-fidelity prototypes to visualize the user experience and test concepts before development.'
+      },
+      {
+        title: 'Visual Design',
+        description: 'I craft beautiful, on-brand interfaces with attention to typography, color, layout, and micro-interactions.'
+      },
+      {
+        title: 'Usability Testing',
+        description: 'I validate designs with real users to identify issues and opportunities for improvement.'
+      }
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Discovery & Research',
+        description: 'I begin by understanding your business goals and conducting user research to identify needs and opportunities.'
+      },
+      {
+        step: 2,
+        title: 'Information Architecture',
+        description: 'I organize content and functionality in a logical structure, creating sitemaps and user flows.'
+      },
+      {
+        step: 3,
+        title: 'Wireframing',
+        description: 'I create low-fidelity wireframes to establish layout and functionality without the distraction of visual design.'
+      },
+      {
+        step: 4,
+        title: 'Visual Design',
+        description: 'I develop the visual language of your product, applying your brand to create beautiful, consistent interfaces.'
+      },
+      {
+        step: 5,
+        title: 'Prototyping & Testing',
+        description: 'I create interactive prototypes and test with users to validate designs and identify improvements.'
+      }
+    ],
+    testimonial: {
+      quote: "Ritav redesigned our app interface, making it not only more visually appealing but significantly more intuitive. Our user engagement metrics have improved dramatically.",
+      author: "Michael Chen",
+      position: "Product Manager, Tech Innovations",
+      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
+    },
+    caseStudies: [2, 4],
+    faq: [
+      {
+        question: "What's the difference between UI and UX design?",
+        answer: "UX (User Experience) design focuses on the overall feel and functionality of a product, while UI (User Interface) design focuses on the visual elements users interact with. I provide both to create products that are both functional and beautiful."
+      },
+      {
+        question: "Do you work with development teams?",
+        answer: "Yes, I collaborate closely with developers to ensure designs are implemented accurately. I can provide detailed specifications, style guides, and assets to facilitate the development process."
+      },
+      {
+        question: "How do you approach responsive design?",
+        answer: "I design with a mobile-first approach, ensuring interfaces work seamlessly across all device sizes. I create responsive layouts that adapt to different screen dimensions while maintaining usability and visual integrity."
+      }
+    ]
+  },
+  {
+    id: 4,
+    title: 'WordPress Development',
+    slug: 'wordpress-development',
+    description: 'I build and customize WordPress websites that are user-friendly, responsive, and tailored to your business needs.',
+    color: 'from-orange-600 to-orange-500',
+    icon: 'wordpress',
+    fullDescription: `
+      <p>WordPress is a powerful platform for creating websites. I specialize in developing custom themes and plugins that enhance functionality and user experience.</p>
+      
+      <p>My WordPress development services include:</p>
+    `,
+    features: [
+      {
+        title: 'Custom Theme Development',
+        description: 'I create unique WordPress themes that reflect your brand and provide a seamless user experience.'
+      },
+      {
+        title: 'Plugin Development',
+        description: 'I develop custom plugins to add specific features and functionalities to your website.'
+      },
+      {
+        title: 'E-commerce Solutions',
+        description: 'I build online stores using WooCommerce, ensuring a smooth shopping experience for your customers.'
+      },
+      {
+        title: 'Website Maintenance',
+        description: 'I offer ongoing support and maintenance services to keep your WordPress site secure and up-to-date.'
+      },
+      {
+        title: 'SEO Optimization',
+        description: 'I implement SEO best practices to improve your website’s visibility and search engine rankings.'
+      }
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Consultation',
+        description: 'I start with a consultation to understand your requirements and goals for your WordPress site.'
+      },
+      {
+        step: 2,
+        title: 'Design & Development',
+        description: 'I design and develop your WordPress site, ensuring it meets your specifications and is user-friendly.'
+      },
+      {
+        step: 3,
+        title: 'Testing',
+        description: 'I conduct thorough testing to ensure your site functions correctly across all devices and browsers.'
+      },
+      {
+        step: 4,
+        title: 'Launch',
+        description: 'I launch your website and provide training on how to manage and update your content.'
+      },
+      {
+        step: 5,
+        title: 'Ongoing Support',
+        description: 'I offer ongoing support and maintenance to ensure your site remains secure and performs optimally.'
+      }
+    ],
+    testimonial: {
+      quote: "Ritav built our WordPress site from scratch, and we couldn't be happier. The site is beautiful, functional, and easy to manage.",
+      author: "Laura Smith",
+      position: "Owner, Creative Agency",
+      image: "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
+    },
+    caseStudies: [1, 3],
+    faq: [
+      {
+        question: "Can you migrate my existing site to WordPress?",
+        answer: "Yes, I can help migrate your existing website to WordPress, ensuring a smooth transition with minimal downtime."
+      },
+      {
+        question: "How long does it take to develop a WordPress site?",
+        answer: "The timeline varies based on the complexity of the project, but a standard WordPress site can take 4-6 weeks to complete."
+      },
+      {
+        question: "Will my WordPress site be mobile-friendly?",
+        answer: "Absolutely! I ensure that all WordPress sites are responsive and look great on all devices."
+      }
+    ]
+  },
 ];

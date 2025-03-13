@@ -1,29 +1,8 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { educationData } from '../data/educationData';
 
 const Education = () => {
-  const education = [
-    {
-      period: '2020 - 2024',
-      title: 'B. Tech in Electronics and Communication Engineering',
-      institution: 'Assam Engineering College, Guwahati',
-    },
-    {
-      period: '2018 - 2020',
-      title: 'Higher Secondary Education',
-      institution: 'Gurukul Grammar School, Guwahati',
-    },
-    {
-      period: '2013 - 2018',
-      title: 'Secondary Education',
-      institution: 'Assam Jatiya Bidyalaya, Guwahati',
-    },
-    {
-      period: '2006 - 2012',
-      title: 'Primary Education',
-      institution: 'Shankardev Vidya Niketan, Guwahati',
-    },
-  ];
 
   return (
     <section className="py-10">
@@ -44,23 +23,29 @@ const Education = () => {
           My Education
         </h2>
 
-        <div className="space-y-6">
-          {education.map((edu, index) => (
-            <motion.div
-              key={index}
-              initial={{ opacity: 0, x: -20 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.5, delay: index * 0.1 }}
-              viewport={{ once: true }}
-              className="timeline-item"
-            >
-              <div className="bg-dark bg-opacity-50 p-4 rounded-lg">
-                <span className="text-primary text-sm">{edu.period}</span>
-                <h3 className="text-xl font-bold mt-1">{edu.title}</h3>
-                <p className="text-gray-400">{edu.institution}</p>
-              </div>
-            </motion.div>
-          ))}
+        <div className="relative">
+          {/* Timeline line */}
+          <div className="hidden lg:block absolute left-0 right-0 h-1 bg-primary/20 top-2.5 transform -translate-y-1/2" />
+
+          <div className="space-y-6 lg:space-y-0 lg:grid lg:grid-cols-4 lg:gap-8">
+            {educationData.map((edu, index) => (
+              <motion.div
+                key={index}
+                initial={{ opacity: 0, x: -20 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                transition={{ duration: 0.5, delay: index * 0.1 }}
+                viewport={{ once: true }}
+                className="timeline-item relative"
+              >
+
+                <div className="bg-dark bg-opacity-50 p-4 rounded-lg lg:mt-8 relative">
+                  <span className="text-primary text-sm">{edu.period}</span>
+                  <h3 className="text-xl font-bold mt-1">{edu.title}</h3>
+                  <p className="text-gray-400">{edu.institution}</p>
+                </div>
+              </motion.div>
+            ))}
+          </div>
         </div>
       </motion.div>
     </section>

@@ -5,6 +5,7 @@ import HomePage from './pages/HomePage';
 import BlogDetailPage from './pages/BlogDetailPage';
 import ServiceDetailPage from './pages/ServiceDetailPage';
 import ProjectDetailPage from './pages/ProjectDetailPage';
+import ExperienceDetailPage from './pages/ExperienceDetailPage';
 import Footer from './components/Footer';
 import ScrollToTop from './components/ScrollToTop';
 import { Toaster } from 'sonner';
@@ -20,6 +21,7 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/blog/:id" element={<BlogDetailPage />} />
         <Route path="/service/:id" element={<ServiceDetailPage />} />
+        <Route path="/experience/:id" element={<ExperienceDetailPage />} />
         <Route path="/project/:id" element={<ProjectDetailPage />} />
       </Routes>
       <Footer />
